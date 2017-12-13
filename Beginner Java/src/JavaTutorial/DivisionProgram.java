@@ -3,8 +3,8 @@ package JavaTutorial;
 public class DivisionProgram {
 
 	public static void main(String[] args) {
-		int number1 = 40;
-		int number2 = 2;
+		double number1 = 40;
+		double number2 = 2;
 		double div = number1 / number2;
 		
 		if(div>0){
