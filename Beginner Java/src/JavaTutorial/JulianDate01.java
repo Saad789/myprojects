@@ -2,8 +2,8 @@
 public class JulianDate01 {
 
 	public static void main(String[] args) {
-     String date = "26-Dec-2017";
-	 System.out.println(dateFormat(date));
+        String date = "26-Dec-2017";
+	System.out.println(dateFormat(date));
 	}
 	
 	public static String dateFormat(String date){
@@ -31,7 +31,7 @@ public class JulianDate01 {
 	}
 			
 	public static int convertMMMtoMM(String mon){
-	  String months = "JANFEBMARAPRMAYJUNJULAUGSEPOCTNOVDEC";
+	String months = "JANFEBMARAPRMAYJUNJULAUGSEPOCTNOVDEC";
 			 mon = mon.substring(0,3);
 			 mon = mon.toUpperCase();
 			 int mm = ((months.indexOf(mon)/3)+1);
